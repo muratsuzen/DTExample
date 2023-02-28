@@ -22,7 +22,8 @@ namespace WebAPI.Controllers
         {
             for (int i = 0; i < 200; i++)
             {
-                productService.Add(new ProductDto() { Code = $"Product{i}", Name = $"Product-{i}", Id = Guid.NewGuid() });
+                var nowTime = DateTime.Now.Ticks.ToString();
+                productService.Add(new ProductDto() { Code = $"Product-{nowTime}", Name = $"Product-{nowTime}", Id = Guid.NewGuid() });
             }
             
             return Ok();

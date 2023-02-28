@@ -39,7 +39,7 @@ namespace WebAPI.Controllers
         [Route("GetList")]
         public async Task<IActionResult> GetList([FromBody] PageParameters pageParameters)
         {
-            var products = productService.GetList(index: pageParameters.PageNumber, size: pageParameters.PageSize, searchValue: pageParameters.SearchText, pageParameters.SortColumn);
+            var products = productService.GetList(index: pageParameters.PageNumber, size: pageParameters.PageSize, searchValue: pageParameters.SearchText, pageParameters.SortColumn, pageParameters.SortDirection);
             return Ok(products);
         }
     }

@@ -13,7 +13,7 @@ namespace Business.Abstracts
 {
     public interface IProductService
     {
-        ProductListModel GetList(int index = 0, int size = 10,string searchValue = "",string sortColumn = "");
+        ProductListModel GetList(int index = 0, int size = 10,string searchValue = "",string sortColumn = "", bool sortDirection = true);
         void Add(ProductDto dto);
         void Update(ProductDto dto);
     }

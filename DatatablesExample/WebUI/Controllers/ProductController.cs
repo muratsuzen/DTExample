@@ -20,7 +20,7 @@ namespace WebUI.Controllers
         {
             return View();
         }
-        public async Task<ProductModel> GetProducts(int pageNumber,int pageSize,string searchValue,string sortColumn)
+        public async Task<ProductModel> GetProducts(int pageNumber,int pageSize,string searchValue,string sortColumn,bool sortDirection)
         {
             string url = $"api/Product/GetList";
             var client = httpClientFactory.CreateClient(name: "WebAPI");
@@ -31,7 +31,8 @@ namespace WebUI.Controllers
                     PageSize = pageSize,
                     PageNumber = pageNumber,
                     SearchText = searchValue,
-                    SortColumn = sortColumn
+                    SortColumn = sortColumn,
+                    SortDirection = sortDirection
                 }), Encoding.UTF8, MediaTypeNames.Application.Json);
 
             HttpResponseMessage httpResponseMessage = await client.PostAsync(url,modeljson);
@@ -59,6 +60,7 @@ namespace WebUI.Controllers
                 pageSize: pageSize, 
                 pageNumber: skip / pageSize, 
                 searchValue: searchValue, 
+                sortDirection: sortColumnDirection=="asc",
                 sortColumn: sortColumn);            
 
             totalRecord = data.Count;

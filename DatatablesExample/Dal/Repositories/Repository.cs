@@ -21,14 +21,19 @@ namespace Dal.Repositories
             return context.Set<TEntity>().FirstOrDefault(filter);
         }
 
-        public IPaginate<TEntity> GetList(Expression<Func<TEntity, bool>>? filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, int index = 0, int size = 10, string sortColumn = "")
+        public IPaginate<TEntity> GetList(Expression<Func<TEntity, bool>>? filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null, int index = 0, int size = 10, string sortColumn = "",bool sortDirection = true)
         {
             IQueryable<TEntity> queryable = context.Set<TEntity>();
             if (filter != null) queryable = queryable.Where(filter);
             if (orderBy != null) return orderBy(queryable).ToPaginate(index, size);
 
+            if (!string.IsNullOrEmpty(sortColumn))
+                queryable = queryable.OrderByField(sortColumn, sortDirection);
+
             return queryable.ToPaginate(index, size);
         }
+
+        
 
         public TEntity Add(TEntity entity)
         {

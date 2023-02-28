@@ -25,10 +25,11 @@ namespace Business.Concrete
             productRepository.Add(productMapper);
         }
 
-        public ProductListModel GetList(int index = 0, int size = 10, string searchValue = "", string sortColumn = "")
+        public ProductListModel GetList(int index = 0, int size = 10, string searchValue = "", string sortColumn = "",bool sortDirection = true)
         {
             var products = productRepository.GetList(
-                sortColumn:sortColumn,
+                sortDirection: sortDirection,
+                sortColumn: sortColumn,
                 index: index,
                 size: size,
                 filter: !string.IsNullOrEmpty(searchValue) ? x => x.Code.ToLower().Contains(searchValue.ToLower()) || x.Name.ToLower().Contains(searchValue.ToLower()) : null

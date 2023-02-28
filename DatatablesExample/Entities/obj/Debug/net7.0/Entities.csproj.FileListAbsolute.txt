@@ -1,0 +1,12 @@
+C:\Project\Examples\DatatablesExample\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\Project\Examples\DatatablesExample\Entities\bin\Debug\net7.0\Entities.dll
+C:\Project\Examples\DatatablesExample\Entities\bin\Debug\net7.0\Entities.pdb
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.dll
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\Entities.pdb
+C:\Project\Examples\DatatablesExample\Entities\obj\Debug\net7.0\ref\Entities.dll

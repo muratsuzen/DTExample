@@ -1,4 +1,7 @@
-﻿using Dtos;
+﻿using Business.Models;
+using Core.Paging;
+using Dtos;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +13,7 @@ namespace Business.Abstracts
 {
     public interface IProductService
     {
-        List<ProductDto> GetList(int index = 0, int size = 10);
+        ProductListModel GetList(int index = 0, int size = 10,string searchValue = "",string sortColumn = "");
         void Add(ProductDto dto);
         void Update(ProductDto dto);
     }

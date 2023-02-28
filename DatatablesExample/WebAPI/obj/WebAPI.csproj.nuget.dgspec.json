@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Examples\\DatatablesExample\\Business\\Business.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Business\\Business.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\Business\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -33,14 +33,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj"
               },
-              "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj"
               },
-              "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Project\\Examples\\DatatablesExample\\Core\\Core.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Core\\Core.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\Core\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -124,6 +124,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -144,14 +150,14 @@
         }
       }
     },
-    "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\Dal\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -173,11 +179,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Project\\Examples\\DatatablesExample\\Core\\Core.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Core\\Core.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\Core.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Core\\Core.csproj"
               },
-              "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj"
               }
             }
           }
@@ -225,14 +231,14 @@
         }
       }
     },
-    "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj",
         "projectName": "Dtos",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\Dtos\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -285,14 +291,14 @@
         }
       }
     },
-    "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\Entities\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -345,14 +351,14 @@
         }
       }
     },
-    "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\WebAPI.csproj": {
+    "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\msuzen\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\obj\\",
+        "outputPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -374,11 +380,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Project\\Examples\\DatatablesExample\\Business\\Business.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Business\\Business.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\Business.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Business\\Business.csproj"
               },
-              "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj": {
-                "projectPath": "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj"
+              "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj"
               }
             }
           }

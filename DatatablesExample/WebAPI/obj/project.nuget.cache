@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F+NTtOu2Vu5LrN7yRZ4yyyTGrXCzzIhhhb93AN3Q6OAXV29lK5LyiF7bl0FDLRkzRcR1WR9Ye49EPK793GnWkw==",
+  "dgSpecHash": "niaewfeuOwQtZNncYrozahhZo5UmUYREBLoAdpcS5GQ32FfjtieXRKk2WqyNdjmr7Av0ktyvohUEapfJP8Hn9g==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Examples\\DatatablesExample\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msuzen\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\msuzen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

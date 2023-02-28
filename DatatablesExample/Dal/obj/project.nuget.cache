@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6QPJnv1D80mD4gGgkGwesKY0Fbt1av4lECbPruJgFul+Pz7k/aqRaTfN/wPeg3mskw/hoSkzj/FtclAre+peg==",
+  "dgSpecHash": "9QcmN60okO+I4pV/tRBZNiyOaS8BA+rlmIHV38/apbUHn39TaDGXHEVF3WYbtAvTccvKGbv0CyPLgOHA7nfbjA==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Examples\\DatatablesExample\\Dal\\Dal.csproj",
+  "projectFilePath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dal\\Dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\msuzen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\msuzen\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",

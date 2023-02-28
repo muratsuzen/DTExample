@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebUI
 build_property.RootNamespace = WebUI
-build_property.ProjectDir = C:\Project\Examples\DatatablesExample\WebUI\
+build_property.ProjectDir = C:\Project\Examples\DTExample\DatatablesExample\WebUI\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Project\Examples\DatatablesExample\WebUI
+build_property.MSBuildProjectDirectory = C:\Project\Examples\DTExample\DatatablesExample\WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Home/Index.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Home/Privacy.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Product/Datatables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEYXRhdGFibGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Shared/Error.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/_ViewImports.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/_ViewStart.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/Examples/DatatablesExample/WebUI/Views/Shared/_Layout.cshtml]
+[C:/Project/Examples/DTExample/DatatablesExample/WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mv07mvknwk

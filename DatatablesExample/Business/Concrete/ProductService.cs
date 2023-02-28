@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
 using Business.Abstracts;
+using Business.Models;
 using Dal.Abstracts;
 using Dtos;
 using Entities;
-using System.Linq.Expressions;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Business.Concrete
 {
@@ -24,10 +25,16 @@ namespace Business.Concrete
             productRepository.Add(productMapper);
         }
 
-        public List<ProductDto> GetList(int index = 0, int size = 10)
+        public ProductListModel GetList(int index = 0, int size = 10, string searchValue = "", string sortColumn = "")
         {
-            var products = productRepository.GetList(index: index, size: size);
-            var productsMapper = mapper.Map<List<ProductDto>>(products);
+            var products = productRepository.GetList(
+                sortColumn:sortColumn,
+                index: index,
+                size: size,
+                filter: !string.IsNullOrEmpty(searchValue) ? x => x.Code.ToLower().Contains(searchValue.ToLower()) || x.Name.ToLower().Contains(searchValue.ToLower()) : null
+                );
+
+            var productsMapper = mapper.Map<ProductListModel>(products);
             return productsMapper;
         }
 

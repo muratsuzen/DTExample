@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Business.Models;
+using Core.Paging;
 using Dtos;
 using Entities;
 using System;
@@ -14,6 +16,7 @@ namespace Business.Profiles
         public MappedProfile()
         {
             CreateMap<Product,ProductDto>().ReverseMap();
+            CreateMap<IPaginate<Product>,ProductListModel>().ReverseMap();
         }
     }
 }

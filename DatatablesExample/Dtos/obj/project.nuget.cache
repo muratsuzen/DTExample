@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D7XC3dwX9UJoXPT28gc8iDCpAzbjMVEE4gCJPqEbqILFLhxYhW8C0S9LpIAoYkN33az8l5ySpKBtx6fYSgVC0w==",
+  "dgSpecHash": "qz08vMNdqjosWK0psGlnWe/7MtFeoQjjD0VF1hoH7AfAkiYpW7dPzp4v/fpLc1fuowFHfrB76eqwe8J34yym7A==",
   "success": true,
-  "projectFilePath": "C:\\Project\\Examples\\DatatablesExample\\Dtos\\Dtos.csproj",
+  "projectFilePath": "C:\\Project\\Examples\\DTExample\\DatatablesExample\\Dtos\\Dtos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

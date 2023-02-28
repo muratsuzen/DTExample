@@ -20,9 +20,9 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] ProductDto product)
         {
-            for (int i = 0; i < 2000; i++)
+            for (int i = 0; i < 200; i++)
             {
-                productService.Add(product);
+                productService.Add(new ProductDto() { Code = $"Product{i}", Name = $"Product-{i}", Id = Guid.NewGuid() });
             }
             
             return Ok();
@@ -35,10 +35,11 @@ namespace WebAPI.Controllers
             return Ok(product);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] PageParameters pageParameters)
+        [HttpPost]
+        [Route("GetList")]
+        public async Task<IActionResult> GetList([FromBody] PageParameters pageParameters)
         {
-            var products = productService.GetList(index: pageParameters.PageNumber, size: pageParameters.PageSize);
+            var products = productService.GetList(index: pageParameters.PageNumber, size: pageParameters.PageSize, searchValue: pageParameters.SearchText, pageParameters.SortColumn);
             return Ok(products);
         }
     }

@@ -1,9 +1,10 @@
-﻿namespace WebUI.Models
+﻿using Core.Paging;
+using Dtos;
+
+namespace WebUI.Models
 {
-    public class ProductModel
+    public class ProductModel : BasePageableModel
     {
-        public Guid Id { get; set; }
-        public string Code { get; set; }
-        public string Name { get; set; }
+        public IList<ProductDto> Items { get; set; }
     }
 }

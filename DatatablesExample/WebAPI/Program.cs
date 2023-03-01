@@ -24,6 +24,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.Use(async (context, next) =>
+{
+    // Do work that can write to the Response.
+    await next.Invoke();
+    // Do logging or other work that doesn't write to the Response.
+});
+
 app.UseAuthorization();
 
 app.MapControllers();

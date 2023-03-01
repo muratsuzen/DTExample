@@ -22,11 +22,12 @@ namespace WebUI.Controllers
         }
         public async Task<ProductModel> GetProducts(int pageNumber,int pageSize,string searchValue,string sortColumn,bool sortDirection)
         {
-            string url = $"api/Product/GetList";
+            
             var client = httpClientFactory.CreateClient(name: "WebAPI");
+            string url = $"{client.BaseAddress}api/Product";
 
             var modeljson =
-                new StringContent(JsonSerializer.Serialize(new 
+                new StringContent(JsonSerializer.Serialize(new
                 {
                     PageSize = pageSize,
                     PageNumber = pageNumber,
@@ -35,7 +36,13 @@ namespace WebUI.Controllers
                     SortDirection = sortDirection
                 }), Encoding.UTF8, MediaTypeNames.Application.Json);
 
-            HttpResponseMessage httpResponseMessage = await client.PostAsync(url,modeljson);
+            HttpRequestMessage request = new HttpRequestMessage()
+            {
+                Content = modeljson,
+                Method = HttpMethod.Get,
+                RequestUri = new Uri(url)
+            };
+            HttpResponseMessage httpResponseMessage = await client.SendAsync(request);
 
             if (httpResponseMessage.StatusCode == System.Net.HttpStatusCode.OK)
             {

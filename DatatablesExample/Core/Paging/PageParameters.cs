@@ -10,8 +10,8 @@ namespace Core.Paging
     {
         public int PageNumber { get; set; } = 0;
         public int PageSize { get; set; } = 10;
-        public string SearchText { get; set; }
-        public string SortColumn { get; set; }
+        public string? SearchText { get; set; }
+        public string? SortColumn { get; set; }
         public bool SortDirection { get; set; }
     }
 }

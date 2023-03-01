@@ -1,0 +1,9 @@
+﻿DatatablesExample/.vs
+DatatablesExample/Business/obj
+DatatablesExample/Core/obj
+DatatablesExample/Dal/obj
+DatatablesExample/Dtos/obj
+DatatablesExample/Entities/obj
+DatatablesExample/WebAPI/obj
+DatatablesExample/WebUI/bin
+DatatablesExample/WebUI/obj
